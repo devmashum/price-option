@@ -15,7 +15,7 @@ const NavBar = (route) => {
     ];
 
     return (
-        <nav>
+        <nav className="">
             <div className="md:hidden " onClick={() => setOpen(!open)}>
                 {
                     open === true ? <MdRestaurantMenu className="text-3xl"></MdRestaurantMenu> : <GiHamburgerMenu className="text-3xl "></GiHamburgerMenu>
